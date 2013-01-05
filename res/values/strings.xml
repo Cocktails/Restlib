@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RESTJsonlib</string>
+    <string name="dialog_alert_title">Espere</string>
+    <string name="dialog_alert_content">Obteniendo datos...</string>
 </resources>

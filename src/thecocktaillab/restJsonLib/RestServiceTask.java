@@ -11,6 +11,8 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import thecocktaillab.librestjson.R;
+
 
 /**
  * Configura un AsynTask para realizar la petición en un hilo secundario
@@ -31,9 +33,9 @@ public class RestServiceTask extends AsyncTask<RestRequest, Integer, RestRespons
 		
 		dialog = new ProgressDialog(context);
 		dialog.setTitle(context.getResources().getString( //TODO title
-				android.R.string.dialog_alert_title));
+				R.string.dialog_alert_title));
 		dialog.setMessage(context.getResources().getString(
-				android.R.string.dialog_alert_title));    //TODO message
+				R.string.dialog_alert_content));    //TODO message
 		dialog.setIndeterminate(true);
 		dialog.setCancelable(false);
 		dialog.show();
