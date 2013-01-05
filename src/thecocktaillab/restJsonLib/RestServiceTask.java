@@ -11,7 +11,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import thecocktaillab.librestjson.R;
+import thecocktaillab.libRest.R;
 
 
 /**
