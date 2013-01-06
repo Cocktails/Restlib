@@ -12,8 +12,6 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import thecocktaillab.restJsonLib.R;
-
 /**
  * Configura un AsynTask para realizar la petición en un hilo secundario
  */
